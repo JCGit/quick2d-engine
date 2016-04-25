@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE9053B1CC8BB4F00252D4E /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EE905371CC8BB4F00252D4E /* AppController.mm */; };
+		4EE9053D1CC8BB4F00252D4E /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9053A1CC8BB4F00252D4E /* RootViewController.mm */; };
+		4EE905441CC8BBB900252D4E /* liblibcocos2dxlite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE905431CC8BB6C00252D4E /* liblibcocos2dxlite.a */; };
+		4EE9054A1CC8BC6C00252D4E /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EE905461CC8BC6C00252D4E /* AppDelegate.cpp */; };
+		4EE9054B1CC8BC6C00252D4E /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EE905481CC8BC6C00252D4E /* HelloWorldScene.cpp */; };
+		4EE9054D1CC8BC8600252D4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9054C1CC8BC8600252D4E /* main.m */; };
+		4EE905511CC8BCDD00252D4E /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4EE905501CC8BCDD00252D4E /* Icon.icns */; };
+		4EE905531CC8BD0C00252D4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE905521CC8BD0C00252D4E /* UIKit.framework */; };
+		4EE905581CC8BDAE00252D4E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE905571CC8BDAE00252D4E /* libz.tbd */; };
+		4EE9055A1CC8BDF400252D4E /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE905591CC8BDF400252D4E /* libiconv.tbd */; };
+		4EE905631CC8BE8800252D4E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE9055F1CC8BE7100252D4E /* CoreAudio.framework */; };
+		4EE905641CC8BE9600252D4E /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE9055B1CC8BE0900252D4E /* CoreMotion.framework */; };
+		4EE905661CC8BEB400252D4E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE905651CC8BEB400252D4E /* Accelerate.framework */; };
+		4EE905671CC8BEBE00252D4E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE9055D1CC8BE6500252D4E /* AVFoundation.framework */; };
+		4EE905681CC8BF2E00252D4E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE905611CC8BE7800252D4E /* AudioToolbox.framework */; };
+		4EE9056B1CC8BF8C00252D4E /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE9056A1CC8BF8C00252D4E /* HelloWorld.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EE905421CC8BB6C00252D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EE9053E1CC8BB6C00252D4E /* libcocos2dxlite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EE9FCC81CC8B8FA00252D4E;
+			remoteInfo = libcocos2dxlite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EE9051C1CC8BACB00252D4E /* testslite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testslite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE905301CC8BACB00252D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE905361CC8BB4F00252D4E /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = SOURCE_ROOT; };
+		4EE905371CC8BB4F00252D4E /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppController.mm; sourceTree = SOURCE_ROOT; };
+		4EE905391CC8BB4F00252D4E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = SOURCE_ROOT; };
+		4EE9053A1CC8BB4F00252D4E /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootViewController.mm; sourceTree = SOURCE_ROOT; };
+		4EE9053E1CC8BB6C00252D4E /* libcocos2dxlite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libcocos2dxlite.xcodeproj; path = ../../../proj.ios/libcocos2dxlite.xcodeproj; sourceTree = "<group>"; };
+		4EE905461CC8BC6C00252D4E /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		4EE905471CC8BC6C00252D4E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EE905481CC8BC6C00252D4E /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		4EE905491CC8BC6C00252D4E /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		4EE9054C1CC8BC8600252D4E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		4EE905501CC8BCDD00252D4E /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = SOURCE_ROOT; };
+		4EE905521CC8BD0C00252D4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EE905571CC8BDAE00252D4E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4EE905591CC8BDF400252D4E /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		4EE9055B1CC8BE0900252D4E /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		4EE9055D1CC8BE6500252D4E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EE9055F1CC8BE7100252D4E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4EE905611CC8BE7800252D4E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4EE905651CC8BEB400252D4E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4EE9056A1CC8BF8C00252D4E /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE905191CC8BACB00252D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE905681CC8BF2E00252D4E /* AudioToolbox.framework in Frameworks */,
+				4EE905671CC8BEBE00252D4E /* AVFoundation.framework in Frameworks */,
+				4EE905661CC8BEB400252D4E /* Accelerate.framework in Frameworks */,
+				4EE905641CC8BE9600252D4E /* CoreMotion.framework in Frameworks */,
+				4EE905631CC8BE8800252D4E /* CoreAudio.framework in Frameworks */,
+				4EE9055A1CC8BDF400252D4E /* libiconv.tbd in Frameworks */,
+				4EE905581CC8BDAE00252D4E /* libz.tbd in Frameworks */,
+				4EE905531CC8BD0C00252D4E /* UIKit.framework in Frameworks */,
+				4EE905441CC8BBB900252D4E /* liblibcocos2dxlite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE905131CC8BACB00252D4E = {
+			isa = PBXGroup;
+			children = (
+				4EE9053E1CC8BB6C00252D4E /* libcocos2dxlite.xcodeproj */,
+				4EE905451CC8BC6C00252D4E /* Classes */,
+				4EE9051E1CC8BACB00252D4E /* ios */,
+				4EE905691CC8BF8C00252D4E /* Resources */,
+				4EE905541CC8BD4F00252D4E /* Frameworks */,
+				4EE9051D1CC8BACB00252D4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE9051D1CC8BACB00252D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE9051C1CC8BACB00252D4E /* testslite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE9051E1CC8BACB00252D4E /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				4EE905361CC8BB4F00252D4E /* AppController.h */,
+				4EE905371CC8BB4F00252D4E /* AppController.mm */,
+				4EE905301CC8BACB00252D4E /* Info.plist */,
+				4EE9054C1CC8BC8600252D4E /* main.m */,
+				4EE905391CC8BB4F00252D4E /* RootViewController.h */,
+				4EE9053A1CC8BB4F00252D4E /* RootViewController.mm */,
+				4EE905501CC8BCDD00252D4E /* Icon.icns */,
+			);
+			name = ios;
+			path = testslite;
+			sourceTree = "<group>";
+		};
+		4EE9053F1CC8BB6C00252D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE905431CC8BB6C00252D4E /* liblibcocos2dxlite.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE905451CC8BC6C00252D4E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EE905461CC8BC6C00252D4E /* AppDelegate.cpp */,
+				4EE905471CC8BC6C00252D4E /* AppDelegate.h */,
+				4EE905481CC8BC6C00252D4E /* HelloWorldScene.cpp */,
+				4EE905491CC8BC6C00252D4E /* HelloWorldScene.h */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		4EE905541CC8BD4F00252D4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EE905651CC8BEB400252D4E /* Accelerate.framework */,
+				4EE905611CC8BE7800252D4E /* AudioToolbox.framework */,
+				4EE9055F1CC8BE7100252D4E /* CoreAudio.framework */,
+				4EE9055D1CC8BE6500252D4E /* AVFoundation.framework */,
+				4EE9055B1CC8BE0900252D4E /* CoreMotion.framework */,
+				4EE905591CC8BDF400252D4E /* libiconv.tbd */,
+				4EE905571CC8BDAE00252D4E /* libz.tbd */,
+				4EE905521CC8BD0C00252D4E /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EE905691CC8BF8C00252D4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EE9056A1CC8BF8C00252D4E /* HelloWorld.png */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE9051B1CC8BACB00252D4E /* testslite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE905331CC8BACB00252D4E /* Build configuration list for PBXNativeTarget "testslite" */;
+			buildPhases = (
+				4EE905181CC8BACB00252D4E /* Sources */,
+				4EE905191CC8BACB00252D4E /* Frameworks */,
+				4EE9051A1CC8BACB00252D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testslite;
+			productName = testslite;
+			productReference = 4EE9051C1CC8BACB00252D4E /* testslite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE905141CC8BACB00252D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cocos2d;
+				TargetAttributes = {
+					4EE9051B1CC8BACB00252D4E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 4EE905171CC8BACB00252D4E /* Build configuration list for PBXProject "testslite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EE905131CC8BACB00252D4E;
+			productRefGroup = 4EE9051D1CC8BACB00252D4E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4EE9053F1CC8BB6C00252D4E /* Products */;
+					ProjectRef = 4EE9053E1CC8BB6C00252D4E /* libcocos2dxlite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4EE9051B1CC8BACB00252D4E /* testslite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4EE905431CC8BB6C00252D4E /* liblibcocos2dxlite.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibcocos2dxlite.a;
+			remoteRef = 4EE905421CC8BB6C00252D4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE9051A1CC8BACB00252D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE905511CC8BCDD00252D4E /* Icon.icns in Resources */,
+				4EE9056B1CC8BF8C00252D4E /* HelloWorld.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE905181CC8BACB00252D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE9053D1CC8BB4F00252D4E /* RootViewController.mm in Sources */,
+				4EE9054B1CC8BC6C00252D4E /* HelloWorldScene.cpp in Sources */,
+				4EE9054A1CC8BC6C00252D4E /* AppDelegate.cpp in Sources */,
+				4EE9054D1CC8BC8600252D4E /* main.m in Sources */,
+				4EE9053B1CC8BB4F00252D4E /* AppController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EE905311CC8BACB00252D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EE905321CC8BACB00252D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EE905341CC8BACB00252D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOS2D_DEBUG=1",
+					USE_FILE32API,
+					CC_TARGET_OS_IOS,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../external/ios/libs\"";
+				PRODUCT_BUNDLE_IDENTIFIER = cocos2d.testslite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../cocos\" \"$(SRCROOT)/../../../external/ios/include\" \"$(SRCROOT)/../../../external/ios/include/freetype\" \"$(SRCROOT)/../../../external/sources\" \"$(SRCROOT)/../../../cocos/platform/ios\"";
+			};
+			name = Debug;
+		};
+		4EE905351CC8BACB00252D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOS2D_DEBUG=0",
+					USE_FILE32API,
+					CC_TARGET_OS_IOS,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../external/ios/libs\"";
+				PRODUCT_BUNDLE_IDENTIFIER = cocos2d.testslite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../cocos\" \"$(SRCROOT)/../../../external/ios/include\" \"$(SRCROOT)/../../../external/ios/include/freetype\" \"$(SRCROOT)/../../../external/sources\" \"$(SRCROOT)/../../../cocos/platform/ios\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE905171CC8BACB00252D4E /* Build configuration list for PBXProject "testslite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE905311CC8BACB00252D4E /* Debug */,
+				4EE905321CC8BACB00252D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE905331CC8BACB00252D4E /* Build configuration list for PBXNativeTarget "testslite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE905341CC8BACB00252D4E /* Debug */,
+				4EE905351CC8BACB00252D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE905141CC8BACB00252D4E /* Project object */;
+}
